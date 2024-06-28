@@ -1,0 +1,12 @@
+/* Ensure the Footer sticks to the bottom */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the Footer stays above other elements */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    padding: 10px 0; /* Optional padding */
+    text-align: center; /* Centered content */
+  }
+  
